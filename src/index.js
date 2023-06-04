@@ -11,4 +11,4 @@ const checkMyHeaders = async (url) => {
   return getAll()
 }
 
-module.exports = checkMyHeaders
+module.exports = { checkMyHeaders }
